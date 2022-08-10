@@ -1,0 +1,101 @@
+body{
+    box-sizing: border-box;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3em 5em;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2a6f;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-body{
+    display: table;
+    position: relative;
+    padding: 2em 5em;
+    width: 70%;
+    height: 80vh;
+    min-height: 1em;
+    background-color: #fff;
+    border-radius: 1em;
+    overflow: hidden !important;
+}
+.microsoftLogo{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.left-section{
+    width: 50%;
+    display: table-cell;
+}
+
+.right-section{
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.site-logo{
+    width: 80px;
+    margin-bottom: 6em;
+}
+
+.heading1{
+    font-size: 26px;
+    margin-top: 5em;
+    color: #ea2f2c;
+}
+.heading2{
+    font-size: 26px;
+}
+.btnLogin{
+    background: black;
+    color: #fff;
+    clear: both;
+    padding: 0.5em 3em 0.5em 4em;
+    border: none;
+    user-select:none;
+    text-decoration: none;
+    border-radius: 6px;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btnLogin:hover{
+        background-color: #3a3b8b;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background-color: #ea2f2c;
+    margin-top: 1em;
+}
+.footerText{
+    position: absolute;
+    bottom: 1em;
+    color: #2264b3;
+    font-size: 12px;
+    left: 50%;
+    width: 100% !important;
+    text-align: center;
+    transform: translateX(-50%);
+}
+#tower{
+    color: #ea2f2c;
+}
+.backgroundImg{
+    position: absolute;
+    right: 0em;
+    bottom: 0em;
+}
